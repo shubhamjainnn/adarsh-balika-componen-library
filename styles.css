@@ -1,0 +1,137 @@
+@import url("https://fonts.googleapis.com/css2?family=Lato&family=Montserrat&display=swap");
+
+:root {
+  --primary: #583e86;
+  --gray: #c9ccd351;
+  --dark-gray: #6b7280;
+}
+
+body {
+  font-family: "Montserrat", sans-serif;
+}
+
+.center-container {
+  text-align: center;
+}
+
+hr {
+  margin: 2rem 0;
+}
+
+.primary-link {
+  background-color: var(--primary);
+  padding: 0.5rem 0.5rem;
+  border-radius: 0.5rem 0.5rem;
+  color: white;
+  text-decoration: none;
+}
+
+.secondary-link {
+  text-decoration: none;
+  background-color: var(--dark-gray);
+  padding: 0.5rem 0.5rem;
+  color: white;
+  border-radius: 0.5rem 0.5rem;
+}
+
+.unordered {
+  list-style: none;
+}
+
+.list-inline li {
+  display: inline;
+  padding: 0.5rem 0.5rem;
+}
+
+.navigation {
+  background-color: var(--primary);
+  border-bottom-left-radius: 1rem 1rem;
+  padding: 2rem 2rem;
+}
+
+.container-fluid {
+  text-align: right;
+}
+
+.brand {
+  font-weight: bold;
+  color: white;
+}
+
+.navigation a {
+  text-decoration: none;
+  color: white;
+  padding: 0.5rem 0.5rem;
+}
+
+.active {
+  font-weight: bold;
+}
+
+.img {
+  max-width: 350px;
+  display: block;
+  margin: auto;
+  padding: 2rem;
+}
+.header-heading {
+  color: var(--dark-gray);
+  text-align: center;
+}
+
+.strong {
+  color: var(--primary);
+}
+
+.ow {
+  background-color: var(--gray);
+  padding: 2rem 1rem;
+}
+
+.ow a {
+  text-decoration: none;
+  background-color: var(--dark-gray);
+  padding: 0.5rem 0.5rem;
+  color: white;
+  border-radius: 0.5rem 0.5rem;
+}
+
+.section a {
+  text-decoration: none;
+  background-color: var(--primary);
+  padding: 0.5rem 0.5rem;
+  color: white;
+  border-radius: 0.5rem 0.5rem;
+}
+.footer {
+  background-color: var(--primary);
+  padding: 2rem 1rem;
+  border-bottom-right-radius: 1rem;
+  margin: 1rem;
+}
+
+.footer a {
+  color: white;
+  margin: 0.5rem;
+  text-decoration: none;
+}
+
+.footer h3 {
+  color: white;
+}
+.ow p {
+  text-align: center;
+}
+.button {
+  text-align: center;
+}
+.section p {
+  text-align: center;
+}
+
+.section {
+  padding: 2rem 1rem;
+}
+.blogs-button {
+  text-align: center;
+}

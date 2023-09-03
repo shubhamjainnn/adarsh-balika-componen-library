@@ -77,6 +77,8 @@ hr {
 .header-heading {
   color: var(--dark-gray);
   text-align: center;
+  margin-bottom: 5rem;
+  margin-top: 3rem;
 }
 
 .strong {
@@ -88,21 +90,29 @@ hr {
   padding: 2rem 1rem;
 }
 
-.ow a {
+/* .ow a {
   text-decoration: none;
   background-color: var(--dark-gray);
   padding: 0.5rem 0.5rem;
   color: white;
   border-radius: 0.5rem 0.5rem;
-}
+} */
 
-.section a {
+.link-primery {
   text-decoration: none;
   background-color: var(--primary);
   padding: 0.5rem 0.5rem;
   color: white;
   border-radius: 0.5rem 0.5rem;
 }
+
+/* .section a {
+  text-decoration: none;
+  background-color: var(--primary);
+  padding: 0.5rem 0.5rem;
+  color: white;
+  border-radius: 0.5rem 0.5rem;
+} */
 .footer {
   background-color: var(--primary);
   padding: 2rem 1rem;
@@ -134,4 +144,18 @@ hr {
 }
 .blogs-button {
   text-align: center;
+}
+
+.project-date {
+  text-align: center;
+  margin: auto;
+  display: grid;
+}
+
+.source-link {
+  text-decoration: none;
+  background-color: var(--dark-gray);
+  padding: 0.5rem 0.5rem;
+  color: white;
+  border-radius: 0.5rem 0.5rem;
 }
